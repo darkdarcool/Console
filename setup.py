@@ -1,6 +1,10 @@
 import setuptools
 
-
+install_requires=[
+          'sys',
+          'time',
+          'os'
+      ],
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
